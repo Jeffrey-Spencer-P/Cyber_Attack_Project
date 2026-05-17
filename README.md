@@ -11,7 +11,11 @@ I ran this code on a Host-Only adapter network, but if you are on a private netw
 
 # Database.py
 
+Database.py represents a database that would collect information about possible attacks and what the 
+monitoring system and mitigaton system would be doing.
 
+On line 13 you can change the name of the databse if you would like but you'll need to change
+the name in future parts of the code.
 
 # Monitor.py
 
@@ -24,8 +28,14 @@ Line 18 was the path that I used for my log files you can change this if needed.
 You can edit line 19 and 20 to set your own email address and password so you are 
 able to recive emails alerts for attacks instead of having to watch the terminal the whole time.
 
+On line 39 you will need to change the "domain" to whatever email domain you are using.
+
 On line 59 you'll need to change the path to the database and if you changed the name of the databse you'll need
 to change that too.
+
+# Mitigate.py
+
+
 
 
 
